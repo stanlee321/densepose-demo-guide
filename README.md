@@ -206,7 +206,14 @@ cd $DENSEPOSE/configs
 
 wget https://raw.githubusercontent.com/facebookresearch/DensePose/master/configs/DensePose_ResNet101_FPN_s1x-e2e.yaml
 ```
+## Download the UV_data
 
+For start the testings, you must to download the UV_DATA, go to:
+```
+cd $DENSEPOSE/DensePoseData
+
+bash get_densepose_uv.sh
+```
 **For test with video**
 
 ```
